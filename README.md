@@ -5,4 +5,19 @@ Simple ui in android studio
 
 
 UI of the app:-
-![Test Image 1]()
+![](screenshot/ui.jpg)
+
+TECHNOLOGY CATEGORIES:-
+
+![](screenshot/technology0.jpeg)
+![](screenshot/technology.jpeg)
+
+
+LIFESTYLE CATEGORIES:-
+
+![](screenshot/lifestyle.jpeg)
+
+
+POLITICS CATEGORIES:-
+
+![](screenshot/politics.jpeg)
