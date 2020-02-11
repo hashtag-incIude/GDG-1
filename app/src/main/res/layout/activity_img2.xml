@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".img2"
+    android:background="@drawable/back02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:src="@drawable/aap" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:padding="7dp"
+            android:text="The Aam Aadmi Party (AAP) has secured the required majority of at least 36 seats in the Delhi Assembly elections and will form the government for the third straight time. Meanwhile, BJP has currently won three seats and is leading in five seats. In 2015 elections, AAP had won 67 seats, while BJP had won three seats."
+             android:textColor="#14DA1C"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:src="@drawable/bjp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:padding="7dp"
+            android:text="The BJP conceded defeat in the Delhi Assembly elections, with its National President JP Nadda tweeting, BJP accepts the mandate of the people. We will play our role as a constructive Opposition , raise public issues in the Assembly.I congratulate Arvind Kejriwal, his party and hope that his government will work for the development of Delhi,he added."
+            android:textColor="#14DA1C"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

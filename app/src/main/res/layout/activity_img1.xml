@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".img1"
+    android:background="@drawable/back1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:src="@drawable/bugati" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            android:padding="7dp"
+            android:text="The CHIRON is the fastest, most powerful, and exclusive production super sports car in BUGATTI’s history. Its sophisticated design, innovative technology, and iconic, performance-oriented form make it a unique masterpiece of art, form and technique, that pushes boundaries beyond imagination."
+            android:textColor="#E4322E"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="281dp"
+            android:src="@drawable/r15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            android:padding="7dp"
+            android:text="The original supersport is back! Born of Yamaha's racing DNA that shaped legends like M1, The R1 and the R-series, the all-new YZF R15 V 3.0 powered with Dual Channel ABS is max powerhouse of 18.6 PS that brings track experience to the streets."
+            android:textColor="#07DB10"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:src="@drawable/lambo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:padding="7dp"
+            android:text="The Gallardo RWD is defined by its use of classic sports car technology - an exceptionally powerful engine combined with rear-wheel drive, adopting a specific 2WD developed ESP system.
+This is extremely unusual for a Lamborghini model, and good news for drivers who seek fun and added excitement when they get behind the wheel."
+            android:textColor="#10CEE6"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

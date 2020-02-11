@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".img0">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:src="@drawable/map1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:padding="7dp"
+            android:text="A man blamed Google Maps for giving him wrong directions after he fell into a frozen river at 3:00 am in Minnesota, days after new features were announced on the app. The man was partially submerged and was rescued by the fire department. The department said Maps reportedly told him to use the nearby bridge and not cross the river."
+            android:textColor="#E4322E"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:src="@drawable/am" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:padding="7dp"
+            android:text="Amazon has pulled out of the Mobile World Congress (MWC), the world's largest exhibition for the mobile industry being held in Barcelona, over coronavirus fears. Amazon's cloud computing arm Amazon Web Services was due to host a full-day conference at the event. Amazon is the fourth company to pull out of MWC, following LG Electronics, Ericsson and Nvidia."
+            android:textColor="#E4322E"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:src="@drawable/and" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:padding="7dp"
+            android:text="Google has fixed a critical bug in Android 9 and 8 versions that would have let attackers access user data through Bluetooth using arbitrary code. This vulnerability can lead to theft of personal data and could potentially be used to spread malware,security researchers said. The vulnerability was also present in newer versions, which wasn't similar to the Bluetooth hack."
+            android:textColor="#E4322E"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
